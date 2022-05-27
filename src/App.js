@@ -1,13 +1,26 @@
-import MenuBar from "./components/MenuBar"
-import Footer from "./components/Footer"
+import React from "react";
+import Home from "./routes/Home"
+
+import {
+  Route,
+  Routes
+   } from 'react-router-dom';
+
+
+
+
+
 
 function App() {
   return (
     <>
-    <MenuBar/ >
-    <Footer/ >
+      <Routes>
+        <Route path="/home/" element={ <Home /> } />
+        
+      </Routes>
     </>
   );
 }
+
 
 export default App;
