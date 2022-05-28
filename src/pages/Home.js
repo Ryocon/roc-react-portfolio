@@ -1,6 +1,6 @@
 import React from "react"
-import MenuBar from "../components/MenuBar" 
-import Footer from "../components/Footer"
+import MenuBar from "../MenuBar" 
+import Footer from "../Footer"
 
 const Home = () => {
     return (

@@ -1,23 +1,12 @@
 import React from "react";
-import Home from "./routes/Home"
-
-import {
-  Route,
-  Routes
-   } from 'react-router-dom';
-
-
-
+import PortfolioContainer from "./components/PortfolioContainer"
 
 
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/home/" element={ <Home /> } />
-        
-      </Routes>
+     <PortfolioContainer />
     </>
   );
 }
