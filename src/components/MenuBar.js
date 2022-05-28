@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
 
-// Hashtags seem to stop autorefreshing locally but make the url really janky
 function MenuBar({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="light" expand="lg">
@@ -14,7 +13,7 @@ function MenuBar({ currentPage, handlePageChange }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
-              href="#About"
+              
               onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About" ? "nav-link active" : "nav-link"
@@ -23,7 +22,7 @@ function MenuBar({ currentPage, handlePageChange }) {
               About
             </Nav.Link>
             <Nav.Link
-              href="#Projects"
+              
               onClick={() => handlePageChange("Projects")}
               className={
                 currentPage === "Projects" ? "nav-link active" : "nav-link"
@@ -32,7 +31,7 @@ function MenuBar({ currentPage, handlePageChange }) {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="#Contact"
+              
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
@@ -41,7 +40,7 @@ function MenuBar({ currentPage, handlePageChange }) {
               Contact
             </Nav.Link>
             <Nav.Link
-              href="#CV"
+              
               onClick={() => handlePageChange("CV")}
               className={
                 currentPage === "CV" ? "nav-link active" : "nav-link"
