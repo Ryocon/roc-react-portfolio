@@ -8,7 +8,7 @@ function MenuBar({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="About">Hello!</Navbar.Brand>
+        <Navbar.Brand href="About">Ryan O'Connor</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
