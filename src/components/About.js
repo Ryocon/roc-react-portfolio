@@ -19,7 +19,7 @@ function About() {
           but open to work worldwide!
         </Col>
         <Col className="p-2 col-md-5 order-md-2">
-          <Image src={heroImg} fluid className="p-2"></Image>
+          <Image src={heroImg} fluid className="img p-2"></Image>
         </Col>
       </Row>
     </Container>

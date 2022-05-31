@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 function MenuBar({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
+      <Container className="p-1">
         <Navbar.Brand href="About">Ryan O'Connor</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
