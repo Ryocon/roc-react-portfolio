@@ -7,11 +7,11 @@ import Container from "react-bootstrap/Container";
 function MenuBar({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="light" expand="lg">
-      <Container className="p-1">
-        <Navbar.Brand href="About">Ryan O'Connor</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container className="p-2">
+        <Navbar.Brand href="About" className="ms-2">Ryan O'Connor</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-2" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto ms-2">
             <Nav.Link
               
               onClick={() => handlePageChange("About")}
