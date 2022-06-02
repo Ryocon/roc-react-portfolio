@@ -58,7 +58,7 @@ const ProjectData = [
   {
     id: 6,
     imgsrc: weatherdashboard,
-    title: "SQL-Employee-Tracker",
+    title: "Weather-Dashboard",
     desc: "Realtime weather dashboard based on user input of a city. Uses the OpenWeather API to generate the data",
     github: "https://github.com/Ryocon/weather-dashboard-roc",
     deployment: "https://ryocon.github.io/weather-dashboard-roc/",
