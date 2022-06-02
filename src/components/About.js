@@ -10,16 +10,18 @@ function About() {
   return (
     <Container>
       <Row className="rowstyle align-items-center">
-        <Col className="p-3 col-md-7 order-md-1">
-          Hi I'm Ryan. I am an experienced educator who is bringing my many
-          transferrable skills from a successful career into the world of Full
-          Stack Development. I have a background in Art and Design, an
-          everstanding love of technology and a passion for learning and
-          applying new things into my work. Based in the Midlands (Warwickshire)
+        <Col className="about-box p-3 col-md-7 order-md-1">
+          <p>Hi I'm Ryan - educator turned Full Stack Developer. I have a background in Art and Design, I like Star Wars, Cats and come with a passion for learning.  Based in the Midlands (Warwickshire)
           but open to work worldwide!
+          <br></br>
+          <br></br>
+          <span id="email-about" 
+          onClick={() => window.location = 'mailto:roconn25@gmail.com'}>Get in touch!</span>
+          </p>
+          
         </Col>
         <Col className="p-2 col-md-5 order-md-2">
-          <Image src={heroImg} fluid className="img p-2"></Image>
+          <Image src={heroImg} fluid roundedCircle className="img p-2"></Image>
         </Col>
       </Row>
     </Container>

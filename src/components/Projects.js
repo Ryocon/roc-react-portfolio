@@ -72,19 +72,19 @@ function Projects() {
       {ProjectData.map(({ id, imgsrc, title, desc, github, deployment }) => {
         return (
           <Col key={id}>
-          <Card style={{ width: "20rem", height: "26rem", padding: "4px" }}>
+          <Card id="project-card" style={{ width: "20rem", height: "26rem", padding: "4px", marginBottom: "15px" }}>
             <Card.Img className="card-img" variant="top" src={imgsrc} alt={title}
             style={{ height: "176px" }} 
              />
             <Card.Body>
-              <Card.Title>{title}</Card.Title>
-              <Card.Text style={{ height: "120px" }}>
+              <Card.Title className="project-title">{title}</Card.Title>
+              <Card.Text style={{ height: "110px" }}>
                 {desc}
               </Card.Text>
-              <Button href={github} className="mx-4" target="_blank" variant="primary">
+              <Button href={github} className="mx-4 btn-outline-dark" target="_blank" variant="light">
                 Github
               </Button>
-              <Button href={deployment} target="_blank" variant="primary">
+              <Button href={deployment} target="_blank" className="btn-outline-dark" variant="light">
                 Deployment
               </Button>
             </Card.Body>

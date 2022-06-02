@@ -32,9 +32,9 @@ import {
 function CV() {
   return (
     <Container>
-      <Row className="rowstyle p-1">
+      <Row className="cvrowstyle p-1">
       <Col>
-      <h3>Front End Tech</h3>
+      <h3 className="frontend">Front End Tech</h3>
       <ul>
         <li><FaHtml5 /> HTML</li>
         <li><FaCss3Alt /> CSS</li>
@@ -48,7 +48,7 @@ function CV() {
       </Col>
 
       <Col>
-      <h3>Back End Tech</h3>
+      <h3 className="backend">Back End Tech</h3>
       <ul>
         <li><FaNodeJs /> Node.js</li>
         <li><SiMongodb /> MongoDB</li>
@@ -59,8 +59,8 @@ function CV() {
       </Col>
 
       <Col>
-      <h3>CV Download</h3>
-      <Button href="https://drive.google.com/file/d/1pETLI4SS3fJGREAvg2RuzSkGzTzBr8-p/view" target="_blank">Downloadable PDF</Button>
+      <h3 className="cvdownload">CV Download</h3>
+      <Button href="https://drive.google.com/file/d/1pETLI4SS3fJGREAvg2RuzSkGzTzBr8-p/view" target="_blank" className="btn-outline-dark" variant="light">Downloadable PDF</Button>
       </Col>
 
 

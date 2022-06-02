@@ -3,7 +3,7 @@ ul {
 }
 
 @media (max-width: 768px){
-    .rowstyle {
+    .cvrowstyle {
         display: flex;
         flex-direction: column !important;
         text-align: center;
