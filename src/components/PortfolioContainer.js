@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
       <MenuBar currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
-      
+
       <Footer />
     </div>
   );

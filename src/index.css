@@ -1,66 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
 * {
-    font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
 }
 
 ::-webkit-scrollbar {
-    display: none;
-  }
-
+  display: none;
+}
 
 svg:hover {
-    cursor: pointer;
-    filter: drop-shadow(-3px -5px 1px rgba(0, 0, 0, 0.4));
+  cursor: pointer;
+  filter: drop-shadow(-3px -5px 1px rgba(0, 0, 0, 0.4));
 }
 
 .hero-name {
-    text-shadow: 2px 2px coral,
-    1px 1px coral;
+  text-shadow: 2px 2px coral, 1px 1px coral;
 }
 
 .hero-name:hover {
-    text-shadow: -2px -2px plum,
-    -1px -1px plum;
+  text-shadow: -2px -2px plum, -1px -1px plum;
 }
 
 a {
-    text-shadow: 2px 2px plum,
-    1px 1px plum; 
+  text-shadow: 2px 2px plum, 1px 1px plum;
 }
 
 li:hover {
-    text-shadow: 2px 2px plum,
-    1px 1px plum;  
+  text-shadow: 2px 2px plum, 1px 1px plum;
 }
 
 a:hover {
-    text-shadow: -2px -2px coral,
-    -1px -1px coral;
+  text-shadow: -2px -2px coral, -1px -1px coral;
 }
 
 .frontend {
-    text-shadow: 2px 2px coral,
-    1px 1px coral;
+  text-shadow: 2px 2px coral, 1px 1px coral;
 }
 
 .backend {
-    text-shadow: 2px 2px plum,
-    1px 1px plum;  
+  text-shadow: 2px 2px plum, 1px 1px plum;
 }
 
 .cvdownload {
-    text-shadow: 2px 2px coral,
-    -2px -2px plum;  
+  text-shadow: 2px 2px coral, -2px -2px plum;
 }
 
 #email-about {
-    text-shadow: 2px 2px plum,
-    1px 1px plum; 
+  text-shadow: 2px 2px plum, 1px 1px plum;
 }
 
 #email-about:hover {
-    cursor: pointer;
-    text-shadow: -2px -2px coral,
-    -1px -1px coral;
+  cursor: pointer;
+  text-shadow: -2px -2px coral, -1px -1px coral;
 }

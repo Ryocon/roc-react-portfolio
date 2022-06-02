@@ -22,7 +22,9 @@ function Contact() {
             placeholder="what can I help you with?"
           />
         </Form.Group>
-        <Button href="#" className="btn-outline-dark" variant="light">Send</Button>
+        <Button href="#" className="btn-outline-dark" variant="light">
+          Send
+        </Button>
       </Form>
     </Container>
   );

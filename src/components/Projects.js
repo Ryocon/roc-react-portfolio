@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectStyles.css"
+import "./ProjectStyles.css";
 
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -7,8 +7,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import altf4 from "../assets/images/altf4-main.PNG";
-import mcudeepdive from "../assets/images/mcudeepdiver1.PNG";
+import altf4 from "../assets/images/alt-f4-gif.gif";
+import mcudeepdive from "../assets/images/mcu-deep-diver-demo.gif";
 import pokemonapi from "../assets/images/pokemon-api-desktop-gif.gif";
 import teamprofile from "../assets/images/team-profile-gen-example-output.png";
 import sqlemployeetracker from "../assets/images/sql-employee-tracker-image.PNG";
@@ -69,29 +69,49 @@ function Projects() {
   return (
     <Container>
       <Row>
-      {ProjectData.map(({ id, imgsrc, title, desc, github, deployment }) => {
-        return (
-          <Col key={id}>
-          <Card id="project-card" style={{ width: "20rem", height: "26rem", padding: "4px", marginBottom: "15px" }}>
-            <Card.Img className="card-img" variant="top" src={imgsrc} alt={title}
-            style={{ height: "176px" }} 
-             />
-            <Card.Body>
-              <Card.Title className="project-title">{title}</Card.Title>
-              <Card.Text style={{ height: "110px" }}>
-                {desc}
-              </Card.Text>
-              <Button href={github} className="mx-4 btn-outline-dark" target="_blank" variant="light">
-                Github
-              </Button>
-              <Button href={deployment} target="_blank" className="btn-outline-dark" variant="light">
-                Deployment
-              </Button>
-            </Card.Body>
-          </Card>
-          </Col>
-        );
-      })}
+        {ProjectData.map(({ id, imgsrc, title, desc, github, deployment }) => {
+          return (
+            <Col key={id}>
+              <Card
+                id="project-card"
+                style={{
+                  width: "20rem",
+                  height: "26rem",
+                  padding: "4px",
+                  marginBottom: "15px",
+                }}
+              >
+                <Card.Img
+                  className="card-img"
+                  variant="top"
+                  src={imgsrc}
+                  alt={title}
+                  style={{ height: "176px" }}
+                />
+                <Card.Body>
+                  <Card.Title className="project-title">{title}</Card.Title>
+                  <Card.Text style={{ height: "110px" }}>{desc}</Card.Text>
+                  <Button
+                    href={github}
+                    className="mx-4 btn-outline-dark"
+                    target="_blank"
+                    variant="light"
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    href={deployment}
+                    target="_blank"
+                    className="btn-outline-dark"
+                    variant="light"
+                  >
+                    Deployment
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          );
+        })}
       </Row>
     </Container>
   );

@@ -1,12 +1,12 @@
-import React from "react"
-import Projects from "../Projects"
+import React from "react";
+import Projects from "../Projects";
 
 const ProjectsPage = () => {
-    return (
-        <div>
-            <Projects />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Projects />
+    </div>
+  );
+};
 
-export default ProjectsPage
+export default ProjectsPage;
