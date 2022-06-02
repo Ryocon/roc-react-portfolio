@@ -1,10 +1,11 @@
 import React from "react"
+import CV from "../CV"
 
 
 const CVPage = () => {
     return (
         <div>
-           CV
+           <CV />
         </div>
     )
 }
