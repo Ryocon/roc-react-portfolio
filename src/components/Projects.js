@@ -1,8 +1,11 @@
 import React from "react";
+import "./ProjectStyles.css"
 
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import altf4 from "../assets/images/altf4-main.PNG";
 import mcudeepdive from "../assets/images/mcudeepdiver1.PNG";
@@ -65,16 +68,20 @@ const ProjectData = [
 function Projects() {
   return (
     <Container>
+      <Row>
       {ProjectData.map(({ id, imgsrc, title, desc, github, deployment }) => {
         return (
-          <Card key={id} style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={imgsrc} alt={title} />
+          <Col key={id}>
+          <Card style={{ width: "20rem", height: "26rem", padding: "4px" }}>
+            <Card.Img className="card-img" variant="top" src={imgsrc} alt={title}
+            style={{ height: "176px" }} 
+             />
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <Card.Text>
+              <Card.Text style={{ height: "120px" }}>
                 {desc}
               </Card.Text>
-              <Button href={github} target="_blank" variant="primary">
+              <Button href={github} className="mx-4" target="_blank" variant="primary">
                 Github
               </Button>
               <Button href={deployment} target="_blank" variant="primary">
@@ -82,8 +89,10 @@ function Projects() {
               </Button>
             </Card.Body>
           </Card>
+          </Col>
         );
       })}
+      </Row>
     </Container>
   );
 }
