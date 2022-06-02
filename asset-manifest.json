@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/roc-react-portfolio/static/css/main.63cb5c4c.css",
+    "main.js": "/roc-react-portfolio/static/js/main.151f877f.js",
+    "static/media/mcu-deep-diver-demo.gif": "/roc-react-portfolio/static/media/mcu-deep-diver-demo.a151fb52af8bc4e9246c.gif",
+    "static/media/alt-f4-gif.gif": "/roc-react-portfolio/static/media/alt-f4-gif.8e4b1317b93959d7367e.gif",
+    "static/media/weather-dash-gif.gif": "/roc-react-portfolio/static/media/weather-dash-gif.531b2b256a087192000b.gif",
+    "static/media/pokemon-api-desktop-gif.gif": "/roc-react-portfolio/static/media/pokemon-api-desktop-gif.5bf34466c47a5698340a.gif",
+    "static/media/rochimselfsmolroundedpng-min.png": "/roc-react-portfolio/static/media/rochimselfsmolroundedpng-min.6b5a265e08989d15a904.png",
+    "static/media/sql-employee-tracker-image.PNG": "/roc-react-portfolio/static/media/sql-employee-tracker-image.185088488df76ea57c0e.PNG",
+    "static/media/team-profile-gen-example-output.png": "/roc-react-portfolio/static/media/team-profile-gen-example-output.57ab1ca54994be8b44ae.png",
+    "index.html": "/roc-react-portfolio/index.html",
+    "main.63cb5c4c.css.map": "/roc-react-portfolio/static/css/main.63cb5c4c.css.map",
+    "main.151f877f.js.map": "/roc-react-portfolio/static/js/main.151f877f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63cb5c4c.css",
+    "static/js/main.151f877f.js"
+  ]
+}
